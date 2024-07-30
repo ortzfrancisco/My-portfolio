@@ -1,3 +1,87 @@
+/* styles.css */
 
-body {font-family: "Lato", sans-serif}
-.mySlides {display: none}
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+}
+
+.w3-bar {
+    background-color: #222;
+}
+
+.w3-bar .w3-bar-item {
+    padding: 16px;
+}
+
+.w3-bar .w3-bar-item:hover {
+    background-color: #575757;
+}
+
+.w3-container {
+    padding: 64px 16px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h2.w3-wide {
+    letter-spacing: 4px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+p.w3-opacity {
+    font-style: italic;
+    color: #888;
+}
+
+.w3-round {
+    border-radius: 50%;
+}
+
+.w3-button {
+    padding: 12px 24px;
+    background-color: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.w3-button:hover {
+    background-color: #575757;
+}
+
+.w3-input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+footer {
+    background-color: #f4f4f9;
+    color: #888;
+    padding: 32px;
+    text-align: center;
+}
+
+footer i {
+    margin: 0 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+footer i:hover {
+    color: #333;
+}
