@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'YOUR_TRACKING_ID');
+    </script>
 </head>
 <body>
 
@@ -16,6 +25,10 @@
         <div class="w3-bar w3-black w3-card">
             <a href="#About" class="w3-bar-item w3-button w3-padding-large">About Me</a>
             <a href="#Portfolio" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Portfolio</a>
+            <a href="#Skills" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Skills</a>
+            <a href="#Experience" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Experience</a>
+            <a href="#Testimonials" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Testimonials</a>
+            <a href="#Certificates" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Certificates</a>
             <a href="#Contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
         </div>
     </div>
@@ -26,8 +39,9 @@
         <!-- About Me Section -->
         <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="About">
             <h2 class="w3-wide">About Me</h2>
+            <img src="profile-picture.jpg" alt="Profile Picture" class="w3-round w3-margin-bottom" style="width:50%">
             <p class="w3-opacity"><i>I love coding</i></p>
-            <p class="w3-justify">My name is Francisco Oneal Ortiz, and I'm 34 years old. Check out my projects below.</p>
+            <p class="w3-justify">My name is Francisco Oneal Ortiz, and I'm 34 years old. With a passion for technology and a drive for excellence, I have honed my skills in web development, specializing in creating dynamic and responsive web applications. I completed the UConn Full Stack Web Developer program, which has equipped me with a strong foundation in modern web technologies. Check out my projects below.</p>
         </div>
 
         <!-- Portfolio Section -->
@@ -35,18 +49,111 @@
             <h2 class="w3-wide">Portfolio</h2>
             <div class="w3-row w3-padding-32">
                 <div class="w3-third">
-                    <p>First Project</p>
-                    <a href="https://ortzfrancisco.github.io/School/">
-                        <img src="https://bootcampspot.instructure.com/courses/5149/files/3183467/preview" class="w3-round" alt="First Project" style="width:60%">
+                    <p>Pantry Raid</p>
+                    <a href="https://spencerklink.github.io/Pantry-Raid/">
+                        <img src="images/pantry-riaid.jpeg" class="project-img w3-round w3-hover-opacity" alt="Pantry Raid">
                     </a>
                 </div>
                 <div class="w3-third">
-                    <p>Second Project</p>
-                    <img src="https://bootcampspot.instructure.com/courses/5149/files/3183633/preview" class="w3-round" alt="Second Project" style="width:60%">
+                    <p>Good Picks</p>
+                    <a href="https://github.com/dgomie/good-picks">
+                        <img src="images/goodpicks-screenshot (2).png" class="project-img w3-round w3-hover-opacity" alt="Good Picks">
+                    </a>
                 </div>
                 <div class="w3-third">
-                    <p>Third Project</p>
-                    <img src="#" class="w3-round" alt="Third Project" style="width:60%">
+                    <p>Fitsync-PRO</p>
+                    <a href="https://github.com/ortzfrancisco/Fitsync-PRO">
+                        <img src="images/fitsync-pro1.png" class="project-img w3-round w3-hover-opacity" alt="Fitsync-PRO">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Skills">
+            <h2 class="w3-wide">Skills</h2>
+            <p class="w3-opacity"><i>What I am good at</i></p>
+            <div class="w3-row w3-padding-32">
+                <div class="w3-third">
+                    <p>HTML & CSS</p>
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-container w3-padding-small w3-round-xlarge w3-blue" style="width:90%">90%</div>
+                    </div>
+                </div>
+                <div class="w3-third">
+                    <p>JavaScript</p>
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-container w3-padding-small w3-round-xlarge w3-green" style="width:80%">80%</div>
+                    </div>
+                </div>
+                <div class="w3-third">
+                    <p>Node.js</p>
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-container w3-padding-small w3-round-xlarge w3-yellow" style="width:75%">75%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Experience">
+            <h2 class="w3-wide">Experience</h2>
+            <div class="w3-row w3-padding-32">
+                <div class="w3-third">
+                    <h3>Job Title</h3>
+                    <p>Company Name</p>
+                    <p>January 2020 - Present</p>
+                </div>
+                <div class="w3-third">
+                    <h3>Job Title</h3>
+                    <p>Company Name</p>
+                    <p>January 2018 - December 2019</p>
+                </div>
+                <div class="w3-third">
+                    <h3>Job Title</h3>
+                    <p>Company Name</p>
+                    <p>January 2016 - December 2017</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials Section -->
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Testimonials">
+            <h2 class="w3-wide">Testimonials</h2>
+            <div class="w3-row w3-padding-32">
+                <div class="w3-third">
+                    <p><i>"Francisco is an outstanding developer with great attention to detail."</i></p>
+                    <p>- John Doe, CEO of Company</p>
+                </div>
+                <div class="w3-third">
+                    <p><i>"He always delivers on time and exceeds expectations."</i></p>
+                    <p>- Jane Smith, Project Manager</p>
+                </div>
+                <div class="w3-third">
+                    <p><i>"A pleasure to work with, always brings innovative ideas to the table."</i></p>
+                    <p>- Bob Johnson, CTO</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Certificates and Awards Section -->
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Certificates">
+            <h2 class="w3-wide">Certificates and Awards</h2>
+            <div class="w3-row w3-padding-32">
+                <div class="w3-third">
+                    <p>UConn Full Stack Web Developer</p>
+                    <p>University of Connecticut</p>
+                    <p>Year</p>
+                </div>
+                <div class="w3-third">
+                    <p>Certificate Name</p>
+                    <p>Issuing Organization</p>
+                    <p>Year</p>
+                </div>
+                <div class="w3-third">
+                    <p>Certificate Name</p>
+                    <p>Issuing Organization</p>
+                    <p>Year</p>
                 </div>
             </div>
         </div>
@@ -82,8 +189,9 @@
 
     <!-- Footer -->
     <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-        <i class="fa fa-facebook-official w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <a href="https://www.facebook.com/yourprofile" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <a href="https://github.com/ortzfrancisco" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
     </footer>
 
 </body>

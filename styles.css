@@ -5,22 +5,29 @@ body {
     color: #333;
     background-color: #f4f4f9;
     line-height: 1.6;
+    background-image: url('images/background.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .w3-bar {
-    background-color: #222;
+    background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent background for the navbar */
 }
 
 .w3-bar .w3-bar-item {
     padding: 16px;
+    color: #fff; /* White text for better contrast */
 }
 
 .w3-bar .w3-bar-item:hover {
-    background-color: #575757;
+    background-color: rgba(87, 87, 87, 0.8);
 }
 
 .w3-container {
     padding: 64px 16px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for content containers */
+    border-radius: 8px; /* Rounded corners for a modern look */
 }
 
 h2 {
@@ -70,10 +77,11 @@ p.w3-opacity {
 }
 
 footer {
-    background-color: #f4f4f9;
+    background-color: rgba(244, 244, 249, 0.9);
     color: #888;
     padding: 32px;
     text-align: center;
+    border-radius: 8px;
 }
 
 footer i {
@@ -84,4 +92,40 @@ footer i {
 
 footer i:hover {
     color: #333;
+}
+
+.w3-row-padding > .w3-third, .w3-row-padding > .w3-twothird {
+    margin-bottom: 16px;
+}
+
+.w3-light-grey {
+    background-color: rgba(241, 241, 241, 0.9);
+}
+
+.w3-container .w3-blue {
+    background-color: #4CAF50;
+}
+
+.w3-container .w3-green {
+    background-color: #4CAF50;
+}
+
+.w3-container .w3-yellow {
+    background-color: #FFEB3B;
+}
+
+.w3-container .w3-red {
+    background-color: #f44336;
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.project-img:hover {
+    transform: scale(1.05);
 }
