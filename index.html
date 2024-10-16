@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Portfolio</title>
     <meta charset="UTF-8">
@@ -11,13 +12,14 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-      gtag('config', 'YOUR_TRACKING_ID');
+        gtag('config', 'YOUR_TRACKING_ID');
     </script>
 </head>
+
 <body>
 
     <!-- Navbar -->
@@ -27,11 +29,12 @@
             <a href="#Portfolio" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Portfolio</a>
             <a href="#Skills" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Skills</a>
             <a href="#Experience" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Experience</a>
-            <a href="#Testimonials" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Testimonials</a>
             <a href="#Certificates" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Certificates</a>
+            <a href="#Resume" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Resume</a> <!-- New section -->
             <a href="#Contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
         </div>
     </div>
+    
 
     <!-- Page content -->
     <div class="w3-content" style="max-width:2000px; margin-top:46px">
@@ -41,7 +44,10 @@
             <h2 class="w3-wide">About Me</h2>
             <img src="profile-picture.jpg" alt="Profile Picture" class="w3-round w3-margin-bottom" style="width:50%">
             <p class="w3-opacity"><i>I love coding</i></p>
-            <p class="w3-justify">My name is Francisco Oneal Ortiz, and I'm 34 years old. With a passion for technology and a drive for excellence, I have honed my skills in web development, specializing in creating dynamic and responsive web applications. I completed the UConn Full Stack Web Developer program, which has equipped me with a strong foundation in modern web technologies. Check out my projects below.</p>
+            <p class="w3-justify">My name is Francisco Oneal Ortiz, and I'm 34 years old. With a passion for technology
+                and a drive for excellence, I have honed my skills in web development, specializing in creating dynamic
+                and responsive web applications. I completed the UConn Full Stack Web Developer program, which has
+                equipped me with a strong foundation in modern web technologies. Check out my projects below.</p>
         </div>
 
         <!-- Portfolio Section -->
@@ -51,19 +57,23 @@
                 <div class="w3-third">
                     <p>Pantry Raid</p>
                     <a href="https://spencerklink.github.io/Pantry-Raid/">
-                        <img src="images/pantry-riaid.jpeg" class="project-img w3-round w3-hover-opacity" alt="Pantry Raid">
+                        <img src="images/pantry-riaid.jpeg" class="project-img w3-round w3-hover-opacity"
+                            alt="Pantry Raid">
                     </a>
                 </div>
                 <div class="w3-third">
                     <p>Good Picks</p>
-                    <a href="https://github.com/dgomie/good-picks">
-                        <img src="images/goodpicks-screenshot (2).png" class="project-img w3-round w3-hover-opacity" alt="Good Picks">
+                    <a href="https://hidden-depths-01820-f84c3739770d.herokuapp.com/">
+                        <img src="images/goodpicks.png" class="project-img w3-round w3-hover-opacity" alt="Good Picks">
+                        <link rel="stylesheet" href="https://github.com/dgomie/good-picks">
+
                     </a>
                 </div>
                 <div class="w3-third">
                     <p>Fitsync-PRO</p>
-                    <a href="https://github.com/ortzfrancisco/Fitsync-PRO">
-                        <img src="images/fitsync-pro1.png" class="project-img w3-round w3-hover-opacity" alt="Fitsync-PRO">
+                    <a href="https://fitsync-pro.onrender.com/">
+                        <img src="images/fitsync-pro1.png" class="project-img w3-round w3-hover-opacity"
+                            alt="Fitsync-PRO">
                     </a>
                 </div>
             </div>
@@ -93,7 +103,30 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Add your new technologies here -->
+            <div class="w3-row w3-padding-32">
+                <div class="w3-third">
+                    <p>React</p>
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-container w3-padding-small w3-round-xlarge w3-teal" style="width:85%">85%</div>
+                    </div>
+                </div>
+                <div class="w3-third">
+                    <p>MongoDB</p>
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-container w3-padding-small w3-round-xlarge w3-purple" style="width:70%">70%</div>
+                    </div>
+                </div>
+                <div class="w3-third">
+                    <p>MySQL</p>
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-container w3-padding-small w3-round-xlarge w3-red" style="width:75%">75%</div>
+                    </div>
+                </div>
+            </div>
         </div>
+
 
         <!-- Experience Section -->
         <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Experience">
@@ -117,63 +150,65 @@
             </div>
         </div>
 
-        <!-- Certificates and Awards Section -->
-        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Certificates">
-            <h2 class="w3-wide">Certificates and Awards</h2>
-            <div class="w3-row w3-padding-32">
-                <div class="w3-third">
-                    <p>UConn Full Stack Web Developer</p>
-                    <p>University of Connecticut</p>
-                    <p>Year</p>
-                </div>
-                <div class="w3-third">
-                    <p>Certificate Name</p>
-                    <p>Issuing Organization</p>
-                    <p>Year</p>
-                </div>
-                <div class="w3-third">
-                    <p>Certificate Name</p>
-                    <p>Issuing Organization</p>
-                    <p>Year</p>
-                </div>
-            </div>
+      <!-- Certificates and Awards Section -->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Certificates">
+    <h2 class="w3-wide">Certificates and Awards</h2>
+    <div class="w3-row w3-padding-32">
+        <div class="w3-third">
+            <p>UConn Full Stack Web Developer</p>
+            <p>University of Connecticut</p>
+            <p>2024-2024</p>
         </div>
-
-        <!-- Contact Section -->
-        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="Contact">
-            <h2 class="w3-wide w3-center">CONTACT</h2>
-           
-            <div class="w3-row w3-padding-32">
-                <div class="w3-col m6 w3-large w3-margin-bottom">
-                    <i class="fa fa-map-marker" style="width:30px"></i> Connecticut, US<br>
-                    <i class="fa fa-phone" style="width:30px"></i> Phone: <br>
-                    <i class="fa fa-envelope" style="width:30px"> </i> Email: franciscoortz89@gmail.com<br>
-                </div>
-                <div class="w3-col m6">
-                    <form action="/action_page.php" target="_blank">
-                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-                            <div class="w3-half">
-                                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-                            </div>
-                            <div class="w3-half">
-                                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-                            </div>
-                        </div>
-                        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-                        <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-
     </div>
+</div>
 
-    <!-- Footer -->
-    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-        <a href="https://www.facebook.com/yourprofile" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-        <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-        <a href="https://github.com/ortzfrancisco" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
-    </footer>
+<!-- Resume Section -->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Resume">
+    <h2 class="w3-wide">Resume</h2>
+    <p class="w3-opacity"><i>Click below to download my resume</i></p>
+    <a href="images/Resume.pdf" class="w3-button w3-black w3-padding-large w3-large w3-margin-top" download>
+        <i class="fa fa-download"></i> Download Resume
+    </a>
+</div>
+
+            <!-- Contact Section -->
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="Contact">
+                <h2 class="w3-wide w3-center">CONTACT</h2>
+
+                <div class="w3-row w3-padding-32">
+                    <div class="w3-col m6 w3-large w3-margin-bottom">
+                        <i class="fa fa-map-marker" style="width:30px"></i> Connecticut, US<br>
+                        <i class="fa fa-phone" style="width:30px"></i> Phone: <br>
+                        <i class="fa fa-envelope" style="width:30px"> </i> Email: franciscoortz89@gmail.com<br>
+                    </div>
+                    <div class="w3-col m6">
+                        <form action="/action_page.php" target="_blank">
+                            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                                <div class="w3-half">
+                                    <input class="w3-input w3-border" type="text" placeholder="Name" required
+                                        name="Name">
+                                </div>
+                                <div class="w3-half">
+                                    <input class="w3-input w3-border" type="text" placeholder="Email" required
+                                        name="Email">
+                                </div>
+                            </div>
+                            <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                            <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+            <a href="https://www.linkedin.com/in/francisco-ortiz-1270332b4" target="_blank"><i
+                    class="fa fa-linkedin w3-hover-opacity"></i></a>
+            <a href="https://github.com/ortzfrancisco" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+        </footer>
 
 </body>
+
 </html>
